@@ -59,8 +59,8 @@ def main_task(send_from_address, send_from_password):
 
 #This email address is the one that you will send the message from
 
-user_email = input("Please enter your Gmail address, ending in @gmail.com","\n")
-user_password = input("Please enter your Gmail password","\n")
+user_email = input("Please enter your Gmail address, ending in @gmail.com: \n")
+user_password = input("Please enter your Gmail password: \n")
 
 #Scheduling function to run every day at 06:30
 schedule.every().day.at("06:30").do(main_task, user_email, user_password)
