@@ -7,6 +7,7 @@ This program is used to send a text message containing snow report information u
 3. This program is currently only built to send snow report information for five mountains in Utah; Snowbird, Solitude, Alta, Brighton, Poweder Mountain. You could add additional ones if you'd like by adjusting the resorts{} dictionary from the skiutah.com website.
 4. This only works with the Gmail SMTP server, which assumes that you have a Gmail account. You will also need to ensure to 'allow less secure apps' in your Gmail settings for this to work.
 5. In current state, once started, the program is scheduled to automatically run every day at 6:30 CST. This can be changed by adjusting the schedule.every().day.at() function. Alternatively, you could remove this line altogther and make a direct call to main() which will run the program ad-hoc.
+6. The app also requires that you update line 27 of the code to your local version of ChromeDriver
 
 # General Logic
 
