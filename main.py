@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 import messageConfig as mc
 import schedule
-
+import time
 
 
 def main_task(send_from_address, send_from_password):
